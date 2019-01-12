@@ -41,7 +41,6 @@ public class CryptUtils {
         byte[] encrypted = null;
         cipher.init(1, key);
         encrypted = Base64.encodeBase64(cipher.doFinal(content));
-
         return encrypted;
     }
 
@@ -50,7 +49,6 @@ public class CryptUtils {
         byte[] decrypted = null;
         cipher.init(2, key);
         decrypted = cipher.doFinal(Base64.decodeBase64(content));
-
         return decrypted;
     }
 
