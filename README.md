@@ -1,7 +1,7 @@
 # PrivateFolder
 A Folder / File encryption tool to encrypt your private files and folders!
 ## Prerequisites
-- Java 1.8 or higher
+- Java 11 or higher
 ## Installation
 Afer you're done installing Java 1.8 (https://www.java.com/de/download/) you can just double click the file!
 ## Usage
